@@ -7,6 +7,18 @@
 <title>Insert title here</title>
 </head>
 <body>
-hello
+	<%! int count = 3;
+
+		String makeItLower(String data) {
+			return data.toLowerCase();
+			}%>
+	<%
+		for (int i = 1; i <= count; i++){
+			out.println("Java Sever Pages"+i+".<br>");
+			}
+		%>
+			
+	<%=makeItLower("Hello wrld") %>	
+		
 </body>
 </html>
