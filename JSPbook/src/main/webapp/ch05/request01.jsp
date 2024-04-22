@@ -11,6 +11,7 @@
  		<p>아이디: <input type="text" name="id">
  		<p>비밀번호: <input type="text" name="passwd">
  		<p> <input type="submit" name="전송">
+ 			<input type="reset" name="초기화">
  	</form>
 </body>
 </html>
